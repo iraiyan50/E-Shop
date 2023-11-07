@@ -5,7 +5,16 @@ cmake_minimum_required(VERSION 3.10)
 project(E-Shop)
 
 # Source files
-add_executable(E-Shop App.cpp src/headers/Person.hpp)
+add_executable(
+# Executable
+    E-Shop
+
+# Entry Point
+    App.cpp
+
+# Headers
+    src/headers/Person.hpp
+)
 
 # Link Necessery library
 # target_link_libraries(E-Shop sqlite3)
